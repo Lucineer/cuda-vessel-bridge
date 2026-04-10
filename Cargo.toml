@@ -2,9 +2,12 @@
 name = "cuda-vessel-bridge"
 version = "0.1.0"
 edition = "2021"
-description = "Hardware Abstraction Layer — bridges sensors, actuators, and physical equipment to agent runtime"
+description = "Sensor/actuator bridge — safety monitor, equipment profile"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-vessel-bridge"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
-cuda-equipment = { path = "/tmp/fleet-workspace/cuda-equipment" }
 serde = { version = "1", features = ["derive"] }
-serde_json = "1"
