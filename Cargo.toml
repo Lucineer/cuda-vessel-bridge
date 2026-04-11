@@ -2,13 +2,7 @@
 name = "cuda-vessel-bridge"
 version = "0.1.0"
 edition = "2021"
-description = "Sensor/actuator bridge with safety monitor"
-license = "MIT OR Apache-2.0"
-repository = "https://github.com/Lucineer/cuda-vessel-bridge"
-readme = "README.md"
-keywords = ["ai", "fleet", "agent", "rust"]
-categories = ["science"]
-
+description = "Hardware abstraction bridge connecting software vessels to physical devices."
 [dependencies]
 serde = { version = "1", features = ["derive"] }
-
+serde_json = "1"
